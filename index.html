@@ -1,73 +1,234 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <style>
-     ul li{
-      list-style-type:none;
-     }
-  </style>
-  <style>
-    body{
-      background-image: url(pic.jpg);
-      background-repeat:no-repeat ;
-      background-size: cover;
-      position: relative;
-      background-position: center;
-      height: 100vh;
-      margin: 0;
-      padding:0;
-      margin-bottom: 15%;
-      }
-  </style>
-  <style>
-    h2{line-height: 0px;}
-  </style>
-<script src="https://kit.fontawesome.com/f9c49325e6.js" crossorigin="anonymous"></script>
-<link rel = "stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join the Save Trees & Plant Trees initiative to combat climate change and create a sustainable future through reforestation and conservation efforts.">
+  <meta name="keywords" content="save trees, plant trees, reforestation, conservation, climate change, environment, sustainability">
+  <title>Save Trees & Plant Trees | Initiative for a Greener Future</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f9c49325e6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="menu-bar">     
-<ul>
-<li>Music</li>
-<li>Band</li>
-<li>Tour</li>
-<li>Journal</li>
-<li>Shop</li>
-<li>Newsletter</li> 
-</ul>
-</div>
-  <div>
-  <ul>
-    <h1 class = "paragraph">THIRTEEN YEARS OF</h1>
-    <h2 class = "paragraph2">ONE DIRECTION</h2>
-  </div>
-</ul>
-<div>
-  <p class = "paragraph5">Welcome to the official Thirteen Years Of One Direction website. Visit for the archived<br>
-  journal posts, past events, band photos, as well as all their music, singles and albums.<br>
-  Celebrate thirteen years of One Direction by rediscovering their journey,<br>
-  right from the very beginning.Keep an eye out for hidden surprises!<br>
-  Relive your favourite 1D memories here and get your own personalised,<br>
-  extra-special anniversary mixtape by connecting to your Spotify,Apple Music,<br>
-  SoundCloud and Deezer!</p>
-</div>
-<ul>
-<div>
-<a href= "#" class = "lets-go-btn">LET'S GO</a>
-</div>
-</ul>
-<footer class = "footer">
-  <div class="icons">
-  <ul>
-    <a style="color: #0ac623;"href="#"><i class="fa-brands fa-spotify"></i></a> 
-    <a style="color: #595b60b5;"href="#"><i class="fa-brands fa-apple"></i></a>
-    <a style="color: #ef4f0bf3;"href="#"><i class="fa-brands fa-soundcloud"></i></a>
-    <a style="color: floralwhite;"href="#"><i class="fa-brands fa-deezer"></i></a>
-  </ul>
-  </div> 
-  <div class="p1">
-  <pre> SYCO MUSIC                                                         &copy;2022 SONY MUSIC ENTERTAINMENT UK LTD                                              PRIVACY AND COOKIE POLICY</pre>
-  </div>
-</footer>
+  <!-- Header with navigation -->
+  <header class="header">
+    <nav class="nav-container" aria-label="Main navigation">
+      <div class="logo">
+        <a href="#" aria-label="Save Trees Initiative Home">
+          <i class="fas fa-tree" aria-hidden="true"></i>
+          <span>Save Trees</span>
+        </a>
+      </div>
+      
+      <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation menu">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      
+      <ul class="nav-menu">
+        <li><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#campaigns" class="nav-link">Campaigns</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#get-involved" class="nav-link">Get Involved</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" role="banner" aria-labelledby="main-heading">
+    <div class="hero-content">
+      <h1 id="main-heading" class="hero-title">SAVE TREES</h1>
+      <h2 class="hero-subtitle">PLANT MORE FOR A GREENER FUTURE</h2>
+      <p class="hero-description">
+        Welcome to the Save Trees & Plant Trees initiative. Trees are the lungs of our planet, providing clean air, shade, shelter, and life to countless species. By planting trees and protecting forests, we fight climate change, conserve biodiversity, and create a sustainable future for generations to come. Join us in making the Earth greener and healthier — every tree counts!
+      </p>
+      <div class="cta-container">
+        <a href="#get-involved" class="cta-button">JOIN THE MOVEMENT</a>
+        <a href="#donate" class="cta-button secondary">MAKE A DONATION</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section" aria-labelledby="about-heading">
+    <div class="container">
+      <h2 id="about-heading" class="section-heading">Why Trees Matter</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Trees are vital to our ecosystem and provide countless benefits:</p>
+          <ul class="benefits-list">
+            <li><i class="fas fa-leaf" aria-hidden="true"></i> Produce oxygen and absorb carbon dioxide</li>
+            <li><i class="fas fa-water" aria-hidden="true"></i> Regulate water cycles and prevent soil erosion</li>
+            <li><i class="fas fa-home" aria-hidden="true"></i> Provide habitat for wildlife</li>
+            <li><i class="fas fa-temperature-low" aria-hidden="true"></i> Cool urban environments</li>
+            <li><i class="fas fa-heart" aria-hidden="true"></i> Improve mental and physical health</li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <img src="https://placehold.co/600x400/4CAF50/FFFFFF?text=Healthy+Forest" alt="Lush green forest showing biodiversity" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Campaigns Section -->
+  <section id="campaigns" class="section dark" aria-labelledby="campaigns-heading">
+    <div class="container">
+      <h2 id="campaigns-heading" class="section-heading">Our Campaigns</h2>
+      <div class="campaigns-grid">
+        <div class="campaign-card">
+          <div class="card-icon">
+            <i class="fas fa-seedling" aria-hidden="true"></i>
+          </div>
+          <h3>Urban Reforestation</h3>
+          <p>Planting trees in cities to combat air pollution and reduce urban heat islands.</p>
+          <a href="#" class="card-link">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        
+        <div class="campaign-card">
+          <div class="card-icon">
+            <i class="fas fa-hands-helping" aria-hidden="true"></i>
+          </div>
+          <h3>Forest Conservation</h3>
+          <p>Protecting existing forests from deforestation and illegal logging activities.</p>
+          <a href="#" class="card-link">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        
+        <div class="campaign-card">
+          <div class="card-icon">
+            <i class="fas fa-globe-americas" aria-hidden="true"></i>
+          </div>
+          <h3>Global Initiative</h3>
+          <p>Supporting tree planting efforts in areas most affected by deforestation.</p>
+          <a href="#" class="card-link">Learn more <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section" aria-labelledby="stats-heading">
+    <div class="container">
+      <h2 id="stats-heading" class="visually-hidden">Our Impact</h2>
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-number" data-count="250000">0</span>
+          <span class="stat-label">Trees Planted</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="150">0</span>
+          <span class="stat-label">Protected Areas</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="35000">0</span>
+          <span class="stat-label">Volunteers</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="45">0</span>
+          <span class="stat-label">Countries</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved Section -->
+  <section id="get-involved" class="section" aria-labelledby="involved-heading">
+    <div class="container">
+      <h2 id="involved-heading" class="section-heading">Get Involved</h2>
+      <div class="involvement-options">
+        <div class="option">
+          <i class="fas fa-hand-holding-usd" aria-hidden="true"></i>
+          <h3>Donate</h3>
+          <p>Support our initiatives with a financial contribution.</p>
+          <a href="#donate" class="option-button">Donate Now</a>
+        </div>
+        
+        <div class="option">
+          <i class="fas fa-hands" aria-hidden="true"></i>
+          <h3>Volunteer</h3>
+          <p>Join our planting events and conservation activities.</p>
+          <a href="#volunteer" class="option-button">Sign Up</a>
+        </div>
+        
+        <div class="option">
+          <i class="fas fa-bullhorn" aria-hidden="true"></i>
+          <h3>Spread Awareness</h3>
+          <p>Share our mission with your community and networks.</p>
+          <a href="#share" class="option-button">Share Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter" aria-labelledby="newsletter-heading">
+    <div class="container">
+      <h2 id="newsletter-heading">Stay Updated</h2>
+      <p>Subscribe to our newsletter for updates on our campaigns and events.</p>
+      <form class="newsletter-form" aria-label="Newsletter subscription form">
+        <label for="email" class="visually-hidden">Email Address</label>
+        <input type="email" id="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" aria-labelledby="footer-heading">
+    <div class="container">
+      <h2 id="footer-heading" class="visually-hidden">Footer</h2>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Save Trees Initiative</h3>
+          <p>Committed to reforestation and conservation efforts worldwide since 2010.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Campaigns</a></li>
+            <li><a href="#">Get Involved</a></li>
+            <li><a href="#">Resources</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <address>
+            <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 123 Green Street, Earth</p>
+            <p><i class="fas fa-phone" aria-hidden="true"></i> +1 (555) 123-4567</p>
+            <p><i class="fas fa-envelope" aria-hidden="true"></i> info@savetrees.org</p>
+          </address>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Follow us on YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Save Trees Initiative. All rights reserved.</p>
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
